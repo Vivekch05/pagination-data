@@ -2,6 +2,7 @@
   "name": "pagination-data",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Vivekch05.github.io/pagination-data",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -21,6 +22,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
